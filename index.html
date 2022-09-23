@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index_style.css">
+
+    <title>Tela03</title>
+</head>
+<body>
+    <div id="container">
+        <canvas id="barra_superior"></canvas>
+        <canvas id="quadrado"></canvas>
+        <p id="inscrever">Inscreva-se</p>
+        <div id="fundo_form">
+            <form action="/action_page.php">
+                <label for="fnome" id="label_nome">Nome</label><br>
+                <input type="text" id="input_nome" name="fnome" value=""><br>
+
+                <label for="femail" id="label_email">Email</label><br>
+                <input type="text" id="input_email" name="femail" value=""><br>
+
+                <label for="fsenha" id="label_senha">Senha</label><br>
+                <input type="password" id="input_senha" name="fsenha" value=""><br>
+
+                <!-- <img src="img/esconder.svg" alt="" id="esconder_senha"> -->
+                
+                <label for="fcep" id="label_cep">CEP</label>
+                <label for="fnumero" id="label_numero">Número</label><br>
+
+                <input type="text" id="input_cep" name="fcep" value="">
+                <input type="text" id="input_numero" name="fnumero" value=""><br>
+
+                <label for="frua" id="label_rua">Rua</label><br>
+                <input type="text" id="input_rua" name="frua" value="">
+
+                <label for="fcidade" id="label_cidade">Cidade</label>
+                <select id="select_cidade" name="cidade">
+                    <option value=""></option>
+                    <option value="saopaulo">São Paulo</option>
+                    <option value="riodejaneiro">Rio de Janeiro</option>
+                    <option value="belohorizonte">Belo Horizonte</option>
+                    <option value="vitoria">Vitória</option>
+                </select>
+                <br>
+               
+                <input type="checkbox" id="check_termos" >
+                <label for="ftermos" id="label_termos">Concordo com os Termos e Condições</label>
+
+                <input type="button" value="Cadastrar Conta" id="btn_enviar">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

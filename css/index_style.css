@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+#container {
+    width: 400px;
+    height: 800px;
+    background-color: #F9F8F6;
+    margin: 0 auto;
+}
+
+#barra_superior {
+    width: 400px;
+    height: 4px;
+    background-color: #ffbb12;
+    margin-bottom : 12px;
+}
+
+#quadrado {
+    width: 25px;
+    height: 25px;
+    background-color: #ffbb12;
+    border-radius: 5px;       
+    margin-top: 14px;           
+    margin-left: 15px;          
+    margin-bottom: -25px;       
+}
+
+#inscrever {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight:bolder;
+    color: #464237;
+    margin-top: -5px;           
+    margin-left: 20px;        
+    margin-bottom: 24px;
+
+}
+
+#fundo_form {
+    width: 360px;
+    height: 640px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding-top: 24px;
+}
+
+#label_nome {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin-left: 21px;
+}
+
+#input_nome {
+    background-color: #F9F8F6;
+    margin-top: 8px;
+    width: 300px;
+    height: 40px;
+    margin-left: 21px;
+    margin-bottom: 20px;
+    background-color: #F9F8F6;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 1px;
+    border: 0px;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#label_email {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin-left: 21px;
+}
+
+#input_email {
+    margin-top: 8px;
+    width: 300px;
+    height: 40px;
+    margin-left: 21px;
+    margin-bottom: 21px;
+    background-color: #F9F8F6;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 1px;
+    border: 0px;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#label_senha {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin-left: 21px;
+}
+
+#input_senha {
+    margin-top: 8px;
+    width: 300px;
+    height: 40px;
+    margin-left: 21px;
+    margin-bottom: 21px;
+    background-color: #F9F8F6;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 1px;
+    border: 0px;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* #esconder_senha {
+    width: 18px;
+    height: 18px;
+    opacity: 0.3;
+    margin-top: -50px;
+    margin-bottom: 0px;
+    margin-left: 310px;
+} */
+
+#label_cep {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin-left: 21px;
+}
+
+#input_cep {
+    margin-top: 8px;
+    width: 129px;
+    height: 40px;
+    margin-left: 20px;
+    margin-bottom: 21px;
+    background-color: #F9F8F6;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 1px;
+    border: 0px;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#label_numero {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin-left: 140px;
+}
+
+#input_numero {
+    margin-top: 8px;
+    width: 134px;
+    height: 40px;
+    margin-left: 15px;
+    margin-bottom: 21px;
+    background-color: #F9F8F6;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 1px;
+    border: 0px;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#label_rua {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin-left: 21px;   
+}
+
+#input_rua {
+    margin-top: 8px;
+    width: 300px;
+    height: 40px;
+    margin-left: 21px;
+    margin-bottom: 21px;
+    background-color: #F9F8F6 ;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 1px;
+    border: 0px;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#label_cidade {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin-left: 21px; 
+}
+#select_cidade {
+    margin-top: 8px;
+    width: 310px;
+    height: 40px;
+    margin-left: 21px;
+    margin-bottom: 21px;
+    background-color: #F9F8F6 ;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 1px;
+    border: 0px;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#check_termos {
+    margin-left: 21px; 
+    margin-bottom: 25px; 
+}
+
+#label_termos {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#btn_enviar {
+    height: 49px;
+    margin-left: 21px;
+    border: none;
+    background-color: #ffbb12;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;    
+}
+
